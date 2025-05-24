@@ -31,3 +31,13 @@ gcc -I"C:\npcap-sdk\Include" -L"C:\npcap-sdk\Lib" splitter.c -lwpcap -lws2_32 -o
 - [ ] Calcular **throughput médio por conexão**
 - [ ] Analisar a **evolução da janela de congestionamento**
 - [ ] Detectar **fluxos elefantes** e **microbursts**
+- [ ] Salvar os csvs com os dados de cada métrica
+- [ ] Criar script python para geração dos gráficos com os dados do csv 
+
+### O que foi feito mas VALE A PENA TESTAR !!!!!
+- [X] Duração conexão
+- [X] Número retransmissões
+- [X] TOP 10
+- [X] MSS
+- [X] Tamanho segmentos distribuidos
+- [X] Tempo do 3 way handshake
